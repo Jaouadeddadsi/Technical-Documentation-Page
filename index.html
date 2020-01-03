@@ -15,26 +15,26 @@
     <div class="outline">
       <h2>JS Documentation</h2>
       <ul>
-        <li><a href="#">Introduction</a></li>
-        <li><a href="#">What you should already know</a></li>
-        <li><a href="#">JavaScript and Java</a></li>
-        <li><a href="#">Hello world</a></li>
-        <li><a href="#">Variables</a></li>
-        <li><a href="#">Declaring variables</a></li>
-        <li><a href="#">Variables scope</a></li>
-        <li><a href="#">Global variables</a></li>
-        <li><a href="#">Constants</a></li>
-        <li><a href="#">Data types</a></li>
-        <li><a href="#">if...else statement</a></li>
-        <li><a href="#">while statement</a></li>
-        <li><a href="#">Function declarations</a></li>
-        <li><a href="#">Reference</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#prerequest">What you should already know</a></li>
+        <li><a href="#java">JavaScript and Java</a></li>
+        <li><a href="#hello-world">Hello world</a></li>
+        <li><a href="#variables">Variables</a></li>
+        <li><a href="#declar-var">Declaring variables</a></li>
+        <li><a href="#var-scope">Variables scope</a></li>
+        <li><a href="#global-var">Global variables</a></li>
+        <li><a href="#constants">Constants</a></li>
+        <li><a href="#data-type">Data types</a></li>
+        <li><a href="#ifelse">if...else statement</a></li>
+        <li><a href="#while-statement">while statement</a></li>
+        <li><a href="#function">Function declarations</a></li>
+        <li><a href="#reference">Reference</a></li>
       </ul>
     </div>
 
     <!-- content -->
     <div class="content">
-      <article>
+      <article id="introduction">
         <h3>Introduction</h3>
         <p>JavaScript is a cross-platform, object-oriented
           scripting language. It is a small and lightweight
@@ -67,7 +67,7 @@
           </li>
         </ul>
       </article>
-      <article>
+      <article id="prerequest">
         <h3>What you should already know</h3>
         <p>This guide assumes you have the following basic background:</p>
         <ul>
@@ -77,7 +77,7 @@
             the tutorials linked on the main page about JavaScript.</li>
         </ul>
       </article>
-      <article>
+      <article id="java">
         <h3>JavaScript and Java</h3>
         <p>JavaScript and Java are similar in some ways but
           fundamentally different in some others. The JavaScript
@@ -106,7 +106,7 @@
              Variables, parameters, and function return types are
              not explicitly typed.</p>
       </article>
-      <article>
+      <article id="hello-world">
         <h3>Hello world</h3>
         <p>To get started with writing JavaScript, open the Scratchpad and write
            your first "Hello world" JavaScript code:</p>
@@ -116,7 +116,7 @@
            </div>
          <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
       </article>
-      <article>
+      <article id="variables">
         <h3>Variables</h3>
         <p>You use variables as symbolic names for values in your application. The names of
           variables, called identifiers, conform to certain rules.</p>
@@ -132,7 +132,7 @@
           Some examples of legal names are Number_hits,
            temp99, and _name. </p>
       </article>
-      <article>
+      <article id="declar-var">
         <h3>Declaring variables</h3>
         <p>You can declare a variable in three ways</p>
         <p>With the keyword var. For example,</p>
@@ -153,7 +153,7 @@
         <p>This syntax can be used to declare a block scope local variable.
           See Variable scope below.</p>
       </article>
-      <article>
+      <article id="var-scope">
         <h3>Variable scope</h3>
         <p>When you declare a variable outside of any function,
            it is called a global variable, because it is available
@@ -179,7 +179,7 @@
             defined</pre>
           </div>
       </article>
-      <article>
+      <article id="global-var">
         <h3>Global Variable</h3>
         <p>Global variables are in fact properties of the global
           object. In web pages the global object is window,
@@ -192,7 +192,7 @@
             you can refer to this variable from an iframe as
             parent.phoneNumber. </p>
       </article>
-      <article>
+      <article id="constants">
         <h3>Constants</h3>
         <p>You can create a read-only, named constant with
           the const keyword. The syntax of a constant identifier
@@ -217,7 +217,7 @@
           <pre>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</pre>
         </div>
       </article>
-      <article class="code_snippet">
+      <article id="data-type">
         <h3>Data types</h3>
         <p>The latest ECMAScript standard defines seven data types:</p>
         <ul>
@@ -245,7 +245,7 @@
           functions as procedures that your application can
           perform. </p>
       </article>
-      <article>
+      <article id="ifelse">
         <h3>if..else statement</h3>
         <p>Use the if statement to execute a statement if a logical
           condition is true. Use the optional else clause to
@@ -279,7 +279,7 @@
           <pre>if ((x = y)) { /* statements here */ }</pre>
         </div>
       </article>
-      <article>
+      <article id="while-statement">
         <h3>while statement</h3>
         <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
         <div class="code_snippet">
@@ -301,7 +301,7 @@
         </ul>
         <p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
       </article>
-      <article>
+      <article id="function">
         <h3>Function declarations</h3>
         <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
         <ul>
@@ -319,7 +319,7 @@
         </div>
         <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
       </article>
-      <article>
+      <article id="reference">
         <h3>Reference</h3>
         <ul>
           <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a> </li>
